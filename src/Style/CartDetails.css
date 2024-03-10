@@ -1,0 +1,51 @@
+.cart-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.employee-container {
+  display: flex;
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  background-color: rgb(6, 73, 104);
+  transition: width 0.3s;
+}
+
+.image-container img:hover {
+  width: 200px;
+}
+
+.details {
+  flex: 1;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.details h3 {
+  margin-top: 0;
+  font-weight: bolder;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+.feedback-form {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}

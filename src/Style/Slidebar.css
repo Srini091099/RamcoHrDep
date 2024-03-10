@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    padding: 20px 10px;
+  }
+  
+  .nav-title {
+    color: rgb(10, 213, 240);
+    font-weight: bolder;
+  }
+  
+  .nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .nav-link:hover {
+    background-color: lightblue;
+    color: rgb(253, 249, 249);
+  }
+  .nav-user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  .nav-user-profile form {
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+  }
+  
+  .nav-user-profile form input,
+  .nav-user-profile form button {
+    margin-right: 10px; 
+  }
+  

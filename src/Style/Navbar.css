@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav_box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .my_shop {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .text-warning {
+    color: #ffc107;
+  }
+  
+  .profile_icon {
+    cursor: pointer;
+  }
+  
+  .profile_icon:hover {
+    opacity: 0.7;
+  }
+  
+  .fingerOverlay {
+    background-color: #f5f5f5; 
+    color: #080808; 
+    border: none;
+    border-radius: 20%; 
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; 
+    width: 40px; 
+    margin-right: 5px; 
+  }
+  
+  .fingerOverlay:hover {
+    box-shadow: 0 0 5px 2px #d8db08; 
+  }
+  

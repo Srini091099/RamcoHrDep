@@ -1,0 +1,18 @@
+.user-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-profile button {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .user-profile button:hover {
+    background-color: #f0f0f0;
+  }
+  
