@@ -4,7 +4,7 @@ import '../Style/FeedbackForm.css';
 export default function FeedbackForm() {
   const [feedback, setFeedback] = useState('');
   const [showPopup, setShowPopup] = useState(false);
-  const [rating, setRating] = useState(0);
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -16,9 +16,7 @@ export default function FeedbackForm() {
     setShowPopup(false);
   };
 
-  const handleRatingChange = (value) => {
-    setRating(value);
-  };
+
 
   return (
     <div className="feedback-container">
