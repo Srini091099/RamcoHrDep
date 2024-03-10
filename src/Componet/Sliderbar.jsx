@@ -19,10 +19,10 @@ export default function Sliderbar() {
             <a href='/About' className='nav-link'>About</a>
           </li>
           <li className='nav-item'>
-            <a href='#' className='nav-link'>Feedback</a>
+            <a href='/Feed' className='nav-link'>Feedback</a>
           </li>
           <li className='nav-item'>
-            <a href='#' className='nav-link'>Todo</a>
+            <a href='/Todoo' className='nav-link'>Todo</a>
           </li>
         </ul>
       )}
