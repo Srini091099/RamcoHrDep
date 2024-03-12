@@ -15,19 +15,19 @@ export default function Sliderbar() {
           <li className='nav-item'>
             <Link to='/home' className='nav-link'>Home</Link>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <a href='/About' className='nav-link'>About</a>
-          </li>
+          </li> */}
           <li className='nav-item'>
-            <a href='/Feed' className='nav-link'>Feedback</a>
+            <Link to='/Feed'  className='nav-link'>SmartFeedback</Link>
           </li>
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <a href='/Todoo' className='nav-link'>Todo</a>
-          </li>
+          </li> */}
         </ul>
       )}
       <div className="nav-user-profile">
-        {authenticated ? <Userprofile /> : <button onClick={login}>Login</button>}
+        {authenticated ? <Userprofile /> : <Link to='/Login'  className="button" onClick={login}>Login</Link>}
       </div>
     </nav>
   );
