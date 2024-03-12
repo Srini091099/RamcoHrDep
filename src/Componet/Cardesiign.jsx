@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Slider1 from '../asset/Slider1.png';
-import Slider2 from '../asset/Slider2.png';
-import Slider3 from '../asset/Slider3.png';
+
 import '../Style/CardSlider.css';
 import { useAuth } from './AuthProvider'; 
 import Loginform from './Loginform';
