@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import '../Style/Smartfeedback.css';
-import FeedbackForm from './Feedback';
+
 import Sliderbar from './Sliderbar';
 import { useAuth } from './AuthProvider';
 
